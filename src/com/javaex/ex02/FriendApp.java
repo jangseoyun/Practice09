@@ -20,11 +20,11 @@ public class FriendApp {
 			String input = sc.nextLine();
 			String[] obj = input.split(" ");
 			
-				for(int a = 0; a<1; a++){
+			for(int a = 0; a<1; a++){
 					
-					Friend friend = new Friend(obj[0], obj[1], obj[2]);
-					fList.add(friend);
-				}
+				Friend friend = new Friend(obj[0], obj[1], obj[2]);
+				fList.add(friend);
+			}
 				
 		}
 		
